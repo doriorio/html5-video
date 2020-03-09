@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <video id="videoPlayer" class="video-js vjs-big-play-centered" data-setup="{}"
+    <video id="videoPlayer" class="video-js vjs-big-play-centered" controls preload="auto" data-setup="{}"
     >
         <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
         <p class="vjs-no-js">
@@ -22,6 +22,8 @@
           </p>
     </video>
     <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+    <script src="//cdn.sc.gl/videojs-hotkeys/latest/videojs.hotkeys.min.js"></script>
     <script type="text/javascript" src="./video-player.js"></script>
+
 </body>
 </html>
